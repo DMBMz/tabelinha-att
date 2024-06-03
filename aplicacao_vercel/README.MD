@@ -1,6 +1,6 @@
 <div align="center">
-<h1>Exemplos de aplicação web escritas em Python </h1>
-<h2> Autor: Fabrício Galende M. de Carvalho, PhD</h2>
+<h1> Flaskzinho no vercel </h1>
+<h2> Autor: Davi Miguel</h2>
 </div>
 
 <h3> Examples: </h3>

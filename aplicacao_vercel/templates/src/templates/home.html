@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block contents %}
+<div class="container">
+    <h1>Escolha um Número</h1>
+    <form method="post">
+        <input type="number" name="number" required>
+        <button type="submit">Enviar</button>
+    </form>
+    {% if numbers %}
+    <h2>Próximos Números</h2>
+    <table>
+        <tr>
+            <td>{{ numbers[0] }}</td>
+            <td>{{ numbers[1] }}</td>
+        </tr>
+        <tr>
+            <td>{{ numbers[2] }}</td>
+            <td>{{ numbers[3] }}</td>
+        </tr>
+    </table>
+    {% endif %}
+</div>
+{% endblock %}
